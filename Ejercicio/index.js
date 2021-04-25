@@ -1,22 +1,16 @@
-var num = 15;
-var name = "Bruce";
+function printSum(x){
+  var sum = 0;
+  for (i = 0; i<= x; i++){
 
-var num1 = 10;
-var num2 = 15;
+    console.log(i);  
+    sum = sum+i;
+  
+  }
 
-if (num >=10){
-  console.log("El número es mayor que 10");
+  
+  return(sum);
 }
 
-if (name != "Bruce"){
-  console.log("¿Cuál es tu nombre?");
-}
-else{
-  console.log("Hola Bruce!");
-}
+y = printSum(2);
 
-if (num1 <= num2){
-  num1 = num1 + 10;
-}
-console.log(num1);
-console.log(num2);
+console.log(y);
