@@ -1,0 +1,64 @@
+body {
+    background-color: #1B335D;
+
+
+}
+
+
+header {
+    background-color: #cf3036;
+    font-size: 40px;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+article {
+    background-color: #0e1822;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    width: 970px;
+    float: left; /* El float sirve para alinear las cosasal lugar de la página que deseas */
+    margin: 0px 20px;
+    
+
+}
+
+/* section::after sirve para poner instrucciones exclusivas para después de crear la sección */
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+
+    background-color: #297D8C;
+    width: 240px;
+    border-radius: 15px;
+    vertical-align: 20px;
+    float: left;
+
+    
+
+}
+
+.purple {
+    color:purple;
+    
+}
+.aqua ,a {
+    color: aqua;
+    
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
